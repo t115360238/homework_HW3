@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void main(void)
+int main(void)
 {
     char string1[60] = "Welcome";
     char string2[60];

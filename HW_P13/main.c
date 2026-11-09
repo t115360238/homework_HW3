@@ -3,7 +3,7 @@
 
 double Power(double, int);
 
-void main(void)
+int main(void)
 {
     int k;
     double Ans;
@@ -12,6 +12,8 @@ void main(void)
     Ans = Power(3.5, k);
     printf("3.5的%d次方=%f\n", k, Ans);
     system("pause");
+
+    return 0;
 }
 
 double Power(double X, int n)
